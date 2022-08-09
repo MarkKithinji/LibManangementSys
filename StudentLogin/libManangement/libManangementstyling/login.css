@@ -1,0 +1,31 @@
+body{
+    background:linear-gradient(rgb(140, 140, 243) 20%, rgb(124, 124, 243) 40%, rgb(97, 97, 238) 80%)
+    
+
+}
+.mainContainer{
+    height: 800px;
+    width: 100vw;
+}
+.dialogue{
+    
+    
+    background-color: rgba(240, 248, 255, 0.503);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 40px;
+    padding-top: 4%;
+    width: 70%;
+    height: 40%;
+    box-shadow: 3px 4px 5px rgba(23, 22, 22, 0.698);
+
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    margin: auto;
+    justify-content: space-between;
+}
