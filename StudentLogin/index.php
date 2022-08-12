@@ -7,12 +7,12 @@
             <?php
 
                 if (isset($_SESSION['userId'])) {
-                    echo "<p>you are logged in</p>";
+                    echo "<center><p>you are logged in</p></center>";
                     
 
                 }
                 else {
-                    echo "<p>you are logged out</p>";
+                    echo "<center><p>you are logged out</p></center>";
                 }
 
             ?>    

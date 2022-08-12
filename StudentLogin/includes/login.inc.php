@@ -35,7 +35,7 @@ if (isset($_POST['login-submit'])) {
                     session_start();
                     $_SESSION['userId'] = $row['idusers'];
                     $_SESSION['userUid'] = $row['uidusers'];
-                    header("location: ../index.php?login=success".$mailuid);
+                    header("location: ../libManangement/studentLayout.html?login=success".$mailuid);
                         exit (); 
 
                 }

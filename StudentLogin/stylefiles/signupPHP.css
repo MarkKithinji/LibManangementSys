@@ -1,3 +1,71 @@
-section{
-    background-color: rgb(232, 73, 15);
+body{
+   
+    background:linear-gradient(120deg, rgb(168, 224, 243) 10%,rgb(143, 143, 237) 50%, rgb(172, 172, 242) 90%);
+    height: 200vh;
+    width: 100vw;
+   
+}
+.Ulogo{
+    height: 10%;
+    width: auto;
+
+}
+.nav_bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 10%;
+    background-color: aliceblue;
+    box-shadow: 4px 3px 9px;
+    display: flex;
+    flex-direction: row;
+   
+}
+.top_nav{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 60%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mainContainer{
+    position: relative;
+    top: 3rem;
+    width: 70%;
+    height: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.childContainer{
+    background-color: rgba(249, 250, 251, 0.653);
+    height: 350px;
+    box-shadow: rgba(3, 3, 3, 0.382) 5px 4px 6px;
+    padding-left: 30px;
+    outline: 2px white;
+}
+input{
+    width: 70%;
+}
+
+button{
+    width: 70%;
+}
+
+
+.signedIn{
+    position: absolute;
+    top: 20%;
+}
+.signup{
+    position: relative;
+    width: 70%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
 }

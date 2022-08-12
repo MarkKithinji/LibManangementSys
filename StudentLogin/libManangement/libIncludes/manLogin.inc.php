@@ -35,7 +35,7 @@ if (isset($_POST['login-librarian'])) {
                     session_start();
                     $_SESSION['userId'] = $row['idusers'];
                     $_SESSION['userUid'] = $row['uidusers'];
-                    header("location: ../manangement.php?login=success".$mailuid);
+                    header("location: ../managementLayout.html?login=success".$mailuid);
                         exit (); 
 
                 }

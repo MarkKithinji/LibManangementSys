@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="./stylefiles/signupPHP.css">
     <main>
         <section>
-            <h1>signup</h1>
+            
             <?php
             if (isset($_GET['error'])) {
                 if ($_GET['error'] == "emptyfields") {
@@ -26,16 +26,27 @@
             }
 
             ?>
-            <form action="./includes/signup.inc.php" method="post">
-                <input type="text" name="uid" placeholder="username">
-                <input type="email" name="mail" placeholder="E-mail">
-                <input type="password" name="pwd" placeholder="password">
-                <input type="password" name="pwd-repeat" placeholder="repeat password">
-                <button type="submit" name="signup-submit">signup</button>
-            </form>   
-            <form action="./includes/logout.inc.php" method="post">
-                <button type="submit">go back</button>
-            </form>
+            <div class="signup">
+                <div class="childContainer librarianLogin">
+                    <h3>signup</h3>
+                    <form action="./includes/signup.inc.php" method="post">
+                        <label for="uid">Enter your name</label><br>
+                        <input type="text" name="uid" placeholder="username"><br><br>
+                        <label for="uid">Enter your Email</label><br>
+                        <input type="email" name="mail" placeholder="E-mail"><br><br>
+                        <label for="uid">Choose a safe password</label><br>
+                        <input type="password" name="pwd" placeholder="password"><br><br>
+                        <label for="uid">Re-enter your password</label><br>
+                        <input type="password" name="pwd-repeat" placeholder="repeat password"><br><br>
+                        <button type="submit" name="signup-submit">signup</button><br><br>
+                    </form>  
+                    <form action="./includes/logout.inc.php" method="post">
+                         <button type="submit">go back</button>
+                    </form>
+                   
+                </div> 
+            </div>
+            
 
         </section>
 
